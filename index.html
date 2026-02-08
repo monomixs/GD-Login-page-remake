@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry dash-account mannager login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="gd-icon.jpg">
+</head>
+<body> <br>
+
+    <img id="title" src="gdmanagerLogo2.png" alt="">
+    
+<div class="main-container">
+        
+        <div class="login-section">
+            <h1 id="sub-title">Please login</h1>
+            <input type="text" class="text" placeholder="username"> <br> <br>
+            <input type="password" class="text" placeholder="password">
+            <br> <br>
+            <input id="login" type="button" value="Login">
+        </div>
+
+        <div class="others">
+            <button class="btns">Register</button> <br> <br>
+            <button class="btns">Forgot password?</button> <br><br>
+            <button class="btns">Forgot Username?</button> <br><br>
+            <button class="btns">Resend Activation</button> <br><br>
+            <button class="btns">Invalid Email?</button> <br><br>
+            <button id="openModal" class="btns">Info</button>
+        </div>
+    </div>
+
+
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <span id="closeModal" class="close-btn">&times;</span>
+            <h2 id="pop-up-title">INFO</h2>
+            <hr id="line" >
+            <p>This is just a redesigned version of the Geometry Dash login page i made while bored.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
