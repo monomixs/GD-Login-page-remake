@@ -11,7 +11,7 @@ loginBtn.addEventListener('click', () => {
         localStorage.setItem('gdUsername', username);
         
         // Redirect to home.html
-        window.location.href = "home-page/home.html";
+        window.location.href = "homepage/home.html";
     } else {
         alert("Please enter a username!");
     }
@@ -25,4 +25,5 @@ const modal = document.getElementById('modalOverlay');
 if(openModal) {
     openModal.onclick = () => modal.style.display = 'block';
     closeModal.onclick = () => modal.style.display = 'none';
+
 }
