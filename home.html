@@ -61,9 +61,8 @@
     if (savedName) {
         welcomeTitle.innerText = `WELCOME, ${savedName.toUpperCase()}`;
     }
-
-    // Optional: Clear storage on Logout
-    const logoutBtn = document.querySelector('.btns:last-child'); // Assuming last button is logout
+    
+    const logoutBtn = document.querySelector('.btns:last-child');
     if (logoutBtn && logoutBtn.innerText === "Logout") {
         logoutBtn.onclick = () => {
             localStorage.removeItem('gdUsername');
@@ -74,3 +73,4 @@
 
 
 </html>
+
